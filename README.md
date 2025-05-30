@@ -6,9 +6,9 @@ This Jupyter Notebook script performs web scraping of teacup products from Jumia
 - pip install selenium bs4 webdriver_manager
 # This installs required packages:
 
-- selenium: For browser automation
-- bs4 (BeautifulSoup): For HTML parsing
-- webdriver_manager: Manages ChromeDriver automatically
+ - selenium: For browser automation
+ - bs4 (BeautifulSoup): For HTML parsing
+ webdriver_manager: Manages ChromeDriver automatically
 
 # 2. Imports
 - from selenium import webdriver
@@ -76,6 +76,12 @@ Potential Improvements:
 - Add error handling for failed page loads or missing elements.
 - Scrape additional fields (e.g., ratings, seller info).
 
+# Use Case
+This script could be used for:
+- Price comparison across similar products.
+- Discount tracking to identify deals.
+- Inventory analysis for e-commerce research.
+The structured DataFrame (df) can be saved to CSV/Excel or analyzed further with pandas.
 
 
 
